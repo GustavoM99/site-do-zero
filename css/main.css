@@ -1,0 +1,159 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+}
+ul {
+  padding: 0px !important;
+}
+.menu-principal {
+  width: 100%;
+  background-color: #252323;
+  height: 60px;
+}
+main,
+.content {
+  margin: 0 auto;
+  width: 980px;
+  position: relative;
+  text-align: center;
+}
+.logo {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.header-2 {
+  background-color: #ffffff;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 16px;
+}
+.menu-urls {
+  height: 80px;
+  width: 100%;
+  border-bottom: 3px solid #efefef;
+  background-color: #fff;
+}
+.menu ul li {
+  display: inline-block;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #8b8b8b;
+  margin-left: 15px;
+  height: 50px;
+}
+
+.usuario {
+  justify-content: center;
+  display: inline-block;
+  flex-wrap: wrap;
+}
+
+.menu ul li:hover {
+  border-bottom: 3px solid #f08910;
+  margin-bottom: 10px;
+}
+
+.menu ul li a:hover {
+  color: black;
+}
+
+.menu ul li a {
+  color: #8b8b8b;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: Arial;
+}
+
+.target {
+  position: absolute;
+  border-bottom: 4px solid transparent;
+  z-index: -1;
+  transform: translateX(-60px);
+}
+
+.menu a,
+.target {
+  transition: all 0.35s ease-in-out;
+}
+.menu {
+  width: 70%;
+  float: left;
+}
+
+.linha-horizontal {
+  height: 100px;
+  width: 100%;
+  border-color: #f08910;
+  background-color: #f08910;
+}
+.col-100 {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+
+.flex-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.container-fluid {
+  width: 900px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.texto-destaque {
+  font-family: Arial;
+  text-align: center;
+}
+.texto-destaque strong {
+  color: #646464;
+}
+.texto-destaque h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #818181;
+}
+.texto-destaque p {
+  font-size: 15px;
+  color: #9a9a9a;
+}
+
+.col-3 {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 15px;
+  width: 20%;
+  height: 180px;
+  float: left;
+  position: center;
+}
+
+.text-usuario {
+  margin-left: 10px;
+  margin-bottom: 30px;
+  font-family: Arial;
+  color: #8b8b8b;
+}
+
+.btn {
+  background-image: linear-gradient(to down, #ffffff, #ebebeb);
+  border-radius: 2rem;
+  border-color: transparent;
+}
+
+.bloco-texto {
+  margin-top: 3em;
+}
+
+h3 {
+  font-weight: normal !important;
+}
